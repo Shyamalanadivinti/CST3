@@ -1,0 +1,69 @@
+<div class="div">
+  <img
+    loading="lazy"
+    srcset="..."
+    class="img"
+  />
+  <div class="div-2">ENJOY YOUR FOOD</div>
+  <div class="div-3">
+    <img
+      loading="lazy"
+      src="https://cdn.builder.io/api/v1/image/assets/TEMP/6cc1104edf90730f4365256a29e8968b98b04193b557d7f7a84f2f5d97784ba5?"
+      class="img-2"
+    />
+    GET STARTED
+  </div>
+</div>
+<style>
+  .div {
+    border-radius: 50px;
+    background-color: #b8e4fd;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 25px;
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    fill: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    align-self: stretch;
+    margin-top: 19px;
+  }
+  .div-2 {
+    color: rgba(136, 28, 28, 0.96);
+    margin-top: 46px;
+    font: 48px Irish Grover, sans-serif;
+  }
+  .div-3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    fill: #fff;
+    overflow: hidden;
+    aspect-ratio: 2.8;
+    margin-top: 38px;
+    color: #000;
+    justify-content: center;
+    padding: 30px 50px;
+    font: 16px Itim, sans-serif;
+  }
+  .img-2 {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-4 {
+    position: relative;
+  }
+</style>
